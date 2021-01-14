@@ -27,6 +27,7 @@ header h1 {
 main h1 {
     font-size: 40px;
 }
+
 .header-1 {
     color: #FA804C;
 }
@@ -40,20 +41,24 @@ header {
     color: black;
 }
 
-.sheo {
+.shoe {
     border-radius: 20px;
     background-color: #F1F1F1;
 }
+
 .about {
     border-radius: 20px;
 }
+
 .card {
     border-radius: 20px;
     border: 0;
 }
 
-@media () {
-
+@media (max-width: 768px) {
+    .text-align {
+        text-align: center;
+    }
 }
 
 .card-footer {
@@ -77,28 +82,32 @@ header {
 
 .section-footer ul li {
     margin-bottom: 5px;
-  }
-  .section-footer ul a {
+}
+
+.section-footer ul a {
     color: inherit;
-  }
-  .section-footer ul a:hover {
+}
+
+.section-footer ul a:hover {
     color: #3167eb;
-  }
-  .section-footer .logo-footer {
+}
+
+.section-footer .logo-footer {
     height: 40px;
-  }
-  .section-footer .title {
+}
+
+.section-footer .title {
     font-weight: 600;
     margin-bottom: 16px;
     color: #1e2024;
-  }
-  
-  .footer-bottom {
+}
+
+.footer-bottom {
     padding-top: 20px;
     padding-bottom: 20px;
-  }
-  
-  .footer-copyright {
+}
+
+.footer-copyright {
     padding-top: 20px;
     padding-bottom: 20px;
-  }
+}
