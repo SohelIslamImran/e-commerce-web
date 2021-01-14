@@ -61,6 +61,16 @@ header {
     }
 }
 
+@media (max-width: 576px) {
+    .respon-pic {
+        width: 500px !important;
+    }
+    .mobile-respon {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+}
+
 .card-footer {
     background-color: white;
     border: 0;
